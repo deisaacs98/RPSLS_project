@@ -15,7 +15,10 @@ namespace RPSLS
             
         }
 
+        public Gesture ChooseGesture()
+        {
 
+        }
         // What does a player do?
 
         

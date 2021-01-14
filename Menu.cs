@@ -40,5 +40,19 @@ namespace RPSLS
             Console.WriteLine();
             Console.WriteLine();
         }
+        
+        public void ChooseMove()
+        {
+            Console.Clear()
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("                    Make your move:                         ");
+            Console.WriteLine();
+            Console.WriteLine("      1.Rock           2.Paper          3.Scissors");          
+            Console.WriteLine("            4.Lizard            5.Spock              ");
+            Console.WriteLine();
+        }
+
     }
 }

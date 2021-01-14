@@ -9,7 +9,9 @@ namespace RPSLS
     public class Game
     {
         public List<Gesture> gestures;
-        public Menu menu;
+        public Menu menu=new Menu();
+        public User player1=new User();
+        public Player player2;
         
 
         public Game()
@@ -19,15 +21,37 @@ namespace RPSLS
 
         }
 
-        public void RunGame()
+        public void StartGame()
         {
-            menu = new Menu();
+            AddGesturesToList();
+
+
             menu.Title();
-            SelectNumberOfPlayers(menu);
+            int numberOfPlayers=player1.SelectNumberOfPlayers(menu);
+            SetPlayerChoice(numberOfPlayers);
+            
+
+            
+
 
 
         }
+        public void Run()
+        {
+            StartGame();
 
+        }
+        public void SinglePlayerGame()
+        {
+            int player1Wins = 0;
+            int player2Wins = 0;
+            menu.ChooseMove();
+        }
+        public void TwoPlayerGame()
+        {
+           menu.ChooseMove();
+           menu.ChooseMove();
+        }
         public void AddGesturesToList()
         {
             Gesture gesture1 = new Gesture("Rock", "crushes", "crushes");
@@ -45,46 +69,19 @@ namespace RPSLS
         }
 
         
-        public int SelectNumberOfPlayers(Menu menu)
+        
+        public void SetPlayerChoice(int numberOfPlayers)
         {
-            int number;
-            bool checkInput = true;
-
-            menu.HowManyPlayers();
-            string userInput = Console.ReadLine();
-            bool validInput = Int32.TryParse(userInput, out number);
-            while (checkInput)
+            if(numberOfPlayers==1)
             {
-                
-                if (validInput)
-                {
-                    if (number != 1 || number != 2)
-                    {
-                        Console.WriteLine("Invalid input. Please try again.");
-                        continue;
-
-                    }
-                    else
-                    {
-                        checkInput = false;
-                        break;
-
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Please try again.");
-                    
-                    continue;
-
-                }
-
-
+                player2 = new User();
+                TwoPlayerGame();
             }
-            return number;
+            else
+            {
+                player2 = new CPU();
+                SinglePlayerGame();
+            }
         }
-        
-        
-
     }
 }
