@@ -8,69 +8,37 @@ namespace RPSLS
 {
     public abstract class Player
     {
-        public Gesture gesture;
+        
         public List<Gesture> gestures;
         public int wins;
         
         public Player()
         {
             wins = 0;
+            this.gestures = new List<Gesture>();
         }
 
-        public virtual Gesture ChooseGesture()
+
+        public void AddGesturesToList()
         {
-            List<Gesture> gestures = Game.gestures;
-
-            Menu.ChooseMove();
-            bool checkInput = true;
-            int gestureNumber;
-            string userInput = Console.ReadLine();
-            bool validInput = Int32.TryParse(userInput, out gestureNumber);
-            while (checkInput)
-            {
-                if (validInput)
-                {
-                    if (gestureNumber < 0 || gestureNumber > 4)
-                    {
-                        Console.WriteLine("Invalid input. Please try again."); ;
-                    }
-                        gesture = gestures[gestureNumber];
-                }
-                return gesture;
-            }
+            Gesture gesture1 = new Gesture("Rock", "crushes", "crushes");
+            Gesture gesture2 = new Gesture("Paper", "covers", "disproves");
+            Gesture gesture3 = new Gesture("Scissors", "cuts", "decapitates");
+            Gesture gesture4 = new Gesture("Lizard", "poisons", "eats");
+            Gesture gesture5 = new Gesture("Spock", "smashes", "vaporizes");
+            gestures.Add(gesture1);
+            gestures.Add(gesture2);
+            gestures.Add(gesture3);
+            gestures.Add(gesture4);
+            gestures.Add(gesture5);
         }
-        public int SelectNumberOfPlayers()
+
+        public virtual int ChooseGesture()
         {
-            int number;
-            bool checkInput = true;
-            Menu.HowManyPlayers();
-            string userInput = Console.ReadLine();
-            bool validInput = Int32.TryParse(userInput, out number);
-            while (checkInput)
-            {
-                if (validInput)
-                {
-                    if (number != 1 || number != 2)
-                    {
-                        Console.WriteLine("Invalid input. Please try again.");
-                        continue;
-                    }
-                    else
-                    {
-                        checkInput = false;
-                        break;
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Please try again.");
-                    continue;
-                }
-            }
-            return number;
+            Random random = new Random();
+            int gestureNumber = random.Next(0, 5);
+            return gestureNumber;
         }
-        // What does a player do?
-
 
 
 

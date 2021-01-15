@@ -12,5 +12,13 @@ namespace RPSLS
         {
 
         }
+
+
+        public override int ChooseGesture()
+        {
+            Random random = new Random();
+            int gestureNumber = random.Next(0, 5);
+            return gestureNumber;
+        }
     }
 }
