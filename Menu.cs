@@ -6,53 +6,31 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    public class Menu
+    public static class Menu
     {
-        public Menu()
+        static Menu()
         {
 
         }
-        public void Title()
+        public static void Title()
         {
-            
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("              Rock/Paper/Scissors/Lizard/Spock                         ");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("                  Press Enter to Continue");
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("\n\n\n\n\t\t\t Rock/Paper/Scissors/Lizard/Spock \n\n\n");
+            Console.WriteLine("\t\t\t Press Enter to Continue");
             Console.ReadLine();
-            Console.Clear();
-            
+            Console.Clear()  
         }
-        public void HowManyPlayers()
+        public static void HowManyPlayers()
         {
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("                  How many players?                         ");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("       Enter 1 for 1 player or 2 for 2 player");
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("\n\n\n\n\t\t\t How many players? \n\n\n");
+            Console.WriteLine("\t\t\t Enter 1 for 1 player or 2 for 2 player");
         }
         
-        public void ChooseMove()
+        public static void ChooseMove()
         {
-            Console.Clear()
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("                    Make your move:                         ");
-            Console.WriteLine();
-            Console.WriteLine("      1.Rock           2.Paper          3.Scissors");          
-            Console.WriteLine("            4.Lizard            5.Spock              ");
-            Console.WriteLine();
+            Console.Clear();
+            Console.WriteLine("\n\n\n\n\t\t\t Make your move: \n\n\n");
+            Console.WriteLine("\t 1.Rock \t 2.Paper \t 3.Scissors");          
+            Console.WriteLine("\t 4.Lizard \t 5.Spock");
         }
-
     }
 }

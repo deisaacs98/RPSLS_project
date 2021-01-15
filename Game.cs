@@ -9,14 +9,14 @@ namespace RPSLS
     public class Game
     {
         public List<Gesture> gestures;
-        public Menu menu=new Menu();
+        
         public User player1=new User();
         public Player player2;
         
 
         public Game()
         {
-            gestures = new List<Gesture>();
+            this.gestures = new List<Gesture>();
             
 
         }
@@ -24,33 +24,23 @@ namespace RPSLS
         public void StartGame()
         {
             AddGesturesToList();
-
-
-            menu.Title();
-            int numberOfPlayers=player1.SelectNumberOfPlayers(menu);
+            Menu.Title();
+            int numberOfPlayers=player1.SelectNumberOfPlayers();
             SetPlayerChoice(numberOfPlayers);
-            
-
-            
-
-
-
         }
         public void Run()
         {
             StartGame();
-
         }
         public void SinglePlayerGame()
         {
             int player1Wins = 0;
             int player2Wins = 0;
-            menu.ChooseMove();
+            
         }
         public void TwoPlayerGame()
         {
-           menu.ChooseMove();
-           menu.ChooseMove();
+           
         }
         public void AddGesturesToList()
         {
@@ -63,9 +53,7 @@ namespace RPSLS
             gestures.Add(gesture2);
             gestures.Add(gesture3);
             gestures.Add(gesture4);
-            gestures.Add(gesture5);
-            
-        
+            gestures.Add(gesture5);        
         }
 
         

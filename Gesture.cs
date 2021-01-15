@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    public class Gesture
+    public abstract class Gesture
     {
         public string Name;
         public string Verb1;
