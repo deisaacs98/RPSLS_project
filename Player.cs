@@ -8,14 +8,14 @@ namespace RPSLS
 {
     public abstract class Player
     {
-        
-        public List<Gesture> gestures;
+
+        public List<Gesture> gestures = new List<Gesture>();
         public int wins;
         
         public Player()
         {
             wins = 0;
-            this.gestures = new List<Gesture>();
+            
         }
 
 
