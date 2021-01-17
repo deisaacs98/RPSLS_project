@@ -12,8 +12,6 @@ namespace RPSLS
         {
 
         }
-
-
         public override int ChooseGesture()
         {
             Random random = new Random();

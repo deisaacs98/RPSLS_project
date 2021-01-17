@@ -17,7 +17,6 @@ namespace RPSLS
             Name = name;
             Verb1 = verb1;
             Verb2 = verb2;
-
         }
     }
 }
