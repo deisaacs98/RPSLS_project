@@ -41,6 +41,7 @@ namespace RPSLS
                 {
                     int player1Gesture = player1.ChooseGesture();
                     int player2Gesture = player2.ChooseGesture();
+                    Menu.BattleCountdown();
                     if (player1Gesture == player2Gesture)
                     {
                         Menu.DisplayTie();
