@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CPU.cs" />
     <Compile Include="Gesture.cs" />
+    <Compile Include="Graphics.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />

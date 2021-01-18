@@ -18,6 +18,7 @@ namespace RPSLS
 
         public void StartGame()
         {
+            Console.SetWindowSize(120, 40);
             player1.AddGesturesToList();
             Menu.Title();
             int numberOfPlayers=player1.SelectNumberOfPlayers();
