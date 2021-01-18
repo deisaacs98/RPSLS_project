@@ -13,18 +13,14 @@ namespace RPSLS
         }
         public static void Title()
         {
-
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
-
             Console.Clear();
             Graphics.TitleGraphic();
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\n\n\n\n\n\n\n\t\t\t\t\t\tPress Enter to Continue");
             Console.WriteLine();
             Console.ReadLine();
-            
-
         }
 
             
@@ -37,10 +33,8 @@ namespace RPSLS
             Graphics.SelectModeGraphic();
             Console.WriteLine("\n\n\t\t\t\t\t\t How many players? \n\n");
             Console.WriteLine("\t\t\t\t\t Enter 1 for 1 player or 2 for 2 player");
-            // Same graphics as for ChooseMove. Need to create separate methods for graphics, possibly in Gesture class. Inheritance could be useful.
             Graphics.RockPaperScissorsGraphic();
             Graphics.LizardSpockGraphic();
-
         }
         
         public static void ChooseMove()
@@ -60,7 +54,6 @@ namespace RPSLS
             Console.WriteLine("\n\n\t\t\t\t\t  4.Lizard \t      5.Spock");
         }
 
-
         public static void InvalidInput()
         {
             Console.WriteLine("Invalid Input. Please try again.");
@@ -68,7 +61,7 @@ namespace RPSLS
 
         public static void DisplayGameWinner(string player1, string player2, string verb)
         {
-            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Clear();
             Console.WriteLine("\n\n\n\n\t\t" + player1 + " " + verb + " " + player2 + "!!!!");
         }
@@ -79,39 +72,29 @@ namespace RPSLS
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Clear();
             Graphics.RockTextGraphic();
-            
             Console.Beep(349, 600);
-            
             Console.BackgroundColor = ConsoleColor.Red;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Clear();
             Graphics.PaperTextGraphic();
-            
             Console.Beep(622, 900);
-            
             Console.BackgroundColor = ConsoleColor.Yellow;
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.Clear();
-
             Graphics.ScissorsTextGraphic();
             Console.Beep(587, 300);
-            Console.Beep(523, 200);
-            
+            Console.Beep(523, 200);  
             Console.BackgroundColor = ConsoleColor.Green;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Clear();
             Graphics.LizardTextGraphic();
-            
             Console.Beep(466, 200);
-            
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
             Graphics.SpockTextGraphic();
-            
             Console.Beep(440, 200);
             Console.Beep(415, 2100);
-
         }
 
         public static void DisplayMatchWinner(string winner)
@@ -120,6 +103,8 @@ namespace RPSLS
             Console.Clear();
             Console.WriteLine("\n\n\n\n\t\t\t" + winner + " has won the match!");
             Console.ReadLine();
+            
+
         }
 
         public static void DisplayTie()

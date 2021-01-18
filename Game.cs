@@ -104,21 +104,26 @@ namespace RPSLS
             {
                 player1.wins++;
                 Menu.DisplayGameWinner(gestureName, gesture1Name, player1.gestures[player1Gesture].Verb1);
+                Graphics.GetBattleGraphic(player1Gesture, 0);
             }
             else if (player2Gesture == losingGesture2)
             {
                 player1.wins++;
                 Menu.DisplayGameWinner(gestureName, gesture2Name, player1.gestures[player1Gesture].Verb2);
+                Graphics.GetBattleGraphic(player1Gesture, 1);
+
             }
             else if (player2Gesture == winningGesture1)
             {
                 player2.wins++;
                 Menu.DisplayGameWinner(gesture3Name, gestureName, player1.gestures[player2Gesture].Verb1);
+                Graphics.GetBattleGraphic(player2Gesture, 0);
             }
             else if (player2Gesture == winningGesture2)
             {
                 player2.wins++;
                 Menu.DisplayGameWinner(gesture4Name, gestureName, player1.gestures[player2Gesture].Verb2);
+                Graphics.GetBattleGraphic(player2Gesture, 1);
             }
 
         }
