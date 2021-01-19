@@ -62,12 +62,145 @@ namespace RPSLS
             Console.WriteLine("\t\t\t\t\tInvalid Input. Please try again.");
         }
 
+        //Had to brute force this for the graphics. Will refactor in the future.
         public static void DisplayGameWinner(string player1, string player2, string verb)
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
             Console.WriteLine("\n\n\n\n\t\t\t\t\t" + player1 + " " + verb + " " + player2 + "!!!!");
+            switch(player1)
+            {
+                case "Rock":
+                    if(player2=="Paper")
+                    {
+                        Graphics.BattleGraphic3();
+                        break;
+                        
+                    }
+                    else if (player2 == "Scissors")
+                    {
+                        Graphics.BattleGraphic1();
+                        break;
+                    }
+                    else if (player2 == "Lizard")
+                    {
+                        Graphics.BattleGraphic2();
+                        break;
+                    }
+                    else if (player2 == "Spock")
+                    {
+                        Graphics.BattleGraphic10();
+                        break;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                    
+                case "Paper":
+                    if (player2 == "Rock")
+                    {
+                        Graphics.BattleGraphic3();
+                        break;
+                    }
+                    else if (player2 == "Scissors")
+                    {
+                        Graphics.BattleGraphic5();
+                        break;
+                    }
+                    else if (player2 == "Lizard")
+                    {
+                        Graphics.BattleGraphic8();
+                        break;
+                    }
+                    else if (player2 == "Spock")
+                    {
+                        Graphics.BattleGraphic4();
+                        break;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                case "Scissors":
+                    if (player2 == "Rock")
+                    {
+                        Graphics.BattleGraphic1();
+                        break;
+                    }
+                    else if (player2 == "Paper")
+                    {
+                        Graphics.BattleGraphic5();
+                        break;
+                    }
+                    else if (player2 == "Lizard")
+                    {
+                        Graphics.BattleGraphic6();
+                        break;
+                    }
+                    else if (player2 == "Spock")
+                    {
+                        Graphics.BattleGraphic9();
+                        break;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                case "Lizard":
+                    if (player2 == "Paper")
+                    {
+                        Graphics.BattleGraphic8();
+                        break; ;
+                    }
+                    else if (player2 == "Scissors")
+                    {
+                        Graphics.BattleGraphic6();
+                        break;
+                    }
+                    else if (player2 == "Rock")
+                    {
+                        Graphics.BattleGraphic2();
+                        break;
+                    }
+                    else if (player2 == "Spock")
+                    {
+                        Graphics.BattleGraphic7();
+                        break;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                case "Spock":
+                    if (player2 == "Paper")
+                    {
+                        Graphics.BattleGraphic4();
+                        break;
+                    }
+                    else if (player2 == "Scissors")
+                    {
+                        Graphics.BattleGraphic9();
+                        break;
+                    }
+                    else if (player2 == "Lizard")
+                    {
+                        Graphics.BattleGraphic7();
+                        break;
+                    }
+                    else if (player2 == "Rock")
+                    {
+                        Graphics.BattleGraphic10();
+                        break;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                default:
+                    break;
+            }
         }
 
         public static void BattleCountdown()

@@ -625,72 +625,7 @@ namespace RPSLS
             Console.WriteLine("\t\t\t\t\t      /__/            ");
         }
 
-        public static void GetBattleGraphic(int gestureNumber, int verbNumber)
-        {
-            switch(gestureNumber)
-            {
-                case 0:
-                    if(verbNumber == 0)
-                    {
-                        BattleGraphic1();
-                        break;
-                    }
-                    else
-                    {
-                        BattleGraphic2();
-                        break;
-                    }
-                    
-                case 1:
-                    if (verbNumber == 0)
-                    {
-                        BattleGraphic3();
-                        break;
-                    }
-                    else
-                    {
-                        BattleGraphic4();
-                        break;
-                    }
-                case 2:
-                    if (verbNumber == 0)
-                    {
-                        BattleGraphic5();
-                        break;
-                    }
-                    else
-                    {
-                        BattleGraphic6();
-                        break;
-                    }
-                case 3:
-                    if (verbNumber == 0)
-                    {
-                        BattleGraphic7();
-                        break;
-                    }
-                    else
-                    {
-                        BattleGraphic8();
-                        break;
-                    }
-                    
-                case 4:
-                    if (verbNumber == 0)
-                    {
-                        BattleGraphic9();
-                        break;
-                    }
-                    else
-                    {
-                        BattleGraphic10();
-                        break;
-                    }
-                default:
-                    break;
-            }
-            
-        }
+        
         public static void BattleGraphic1()
         {
             //Gesture gesture1 = new Gesture("Rock", "crushes", "crushes");
