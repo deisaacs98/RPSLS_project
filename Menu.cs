@@ -51,57 +51,59 @@ namespace RPSLS
             Console.Write("\n\n\t\t\t\t\tPick a move and enter its number \n\n");
             Graphics.LizardSpockGraphic();
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\n\n\t\t\t\t\t  4.Lizard \t      5.Spock");
+            Console.WriteLine("\n\n\t\t\t\t\t  4.Lizard \t      5.Spock \n\n");
         }
 
         public static void InvalidInput()
         {
-            Console.WriteLine("Invalid Input. Please try again.");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+            Console.WriteLine("\t\t\t\t\tInvalid Input. Please try again.");
         }
 
         public static void DisplayGameWinner(string player1, string player2, string verb)
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
-            Console.WriteLine("\n\n\n\n\t\t" + player1 + " " + verb + " " + player2 + "!!!!");
+            Console.WriteLine("\n\n\n\n\t\t\t\t\t" + player1 + " " + verb + " " + player2 + "!!!!");
         }
 
         public static void BattleCountdown()
         {
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Clear();
-            Graphics.RockTextGraphic();
-            Console.Beep(349, 600);
-            Console.BackgroundColor = ConsoleColor.Red;
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Clear();
-            Graphics.PaperTextGraphic();
-            Console.Beep(622, 900);
-            Console.BackgroundColor = ConsoleColor.Yellow;
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.Clear();
-            Graphics.ScissorsTextGraphic();
-            Console.Beep(587, 300);
-            Console.Beep(523, 200);  
-            Console.BackgroundColor = ConsoleColor.Green;
-            Console.ForegroundColor = ConsoleColor.Black;
-            Console.Clear();
-            Graphics.LizardTextGraphic();
-            Console.Beep(466, 200);
-            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
+            Graphics.RockTextGraphic();
+            Graphics.RockGraphic();
+            Console.Beep(349, 600);
+            Console.Clear();
+            Graphics.PaperTextGraphic();
+            Graphics.PaperGraphic();
+            Console.Beep(622, 900);
+            Console.Clear();
+            Graphics.ScissorsTextGraphic();
+            Graphics.ScissorsGraphic();
+            Console.Beep(587, 300);
+            Console.Beep(523, 200);  
+            Console.Clear();
+            Graphics.LizardTextGraphic();
+            Graphics.LizardGraphic();
+            Console.Beep(466, 200);
+            Console.Clear();
             Graphics.SpockTextGraphic();
+            Graphics.SpockGraphic();
             Console.Beep(440, 200);
             Console.Beep(415, 2100);
         }
 
         public static void DisplayMatchWinner(string winner)
         {
-            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
-            Console.WriteLine("\n\n\n\n\t\t\t" + winner + " has won the match!");
+            Console.WriteLine("\n\n\n\n\t\t\t\t" + winner + " has won the match!");
             Console.ReadLine();
             
 
@@ -109,26 +111,29 @@ namespace RPSLS
 
         public static void DisplayTie()
         {
-            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
-            Console.WriteLine("\n\n\n\n\t\t TIE! \n\n\n");
-            Console.WriteLine("\t\t Press Enter to Choose Again");
+            Console.WriteLine("\n\n\n\n\t\t\t\t\t TIE! \n\n\n");
+            Console.WriteLine("\n\n\t\t\t\t\t Press Enter to Choose Again");
             Console.ReadLine();
         }
 
         public static void DisplayScore(Player player1, Player player2)
         {
-
-            Console.WriteLine("\n\t\t Player 1: "+player1.wins);
-            Console.WriteLine("\t\t Player 2: "+player2.wins);
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("\n\n\n\t\t\t\t\t Player 1: "+player1.wins);
+            Console.WriteLine("\t\t\t\t\t Player 2: "+player2.wins);
             Console.ReadLine();
         }
         public static string PlayAgain()
         {
-            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
-            Console.WriteLine("\n\n\n\n\t\t Would you like to play again?");
-            Console.WriteLine("\n\t\t Press Y for Yes");
+            Console.WriteLine("\n\n\n\n\t\t\t\t\t Would you like to play again?");
+            Console.WriteLine("\n\t\t\t\t\t Press Y for Yes");
             string response = Console.ReadLine();
             return response;
             

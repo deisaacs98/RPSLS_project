@@ -298,26 +298,27 @@ namespace RPSLS
         public static void RockGraphic()
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\n\t\t\t\t\t    ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("           ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t   ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("             ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t   ");
             Console.BackgroundColor = ConsoleColor.Gray;
-            Console.Write("             "); Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("             "); 
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t   ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("             ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t   ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("             ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t    ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("           ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -333,52 +334,51 @@ namespace RPSLS
         public static void PaperGraphic()
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\n\n\t\t\t\t\t   ");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("            ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t   ");
+            
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("            ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
-
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.Write("            ");
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
-
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.Write("            ");
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
@@ -398,7 +398,7 @@ namespace RPSLS
         public static void ScissorsGraphic()
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t\t  ");
+            Console.Write("\n\n\n\t\t\t\t\t\t");
 
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write(" ");
@@ -407,9 +407,8 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write(" ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t\t");
 
-            Console.Write("              ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -418,9 +417,8 @@ namespace RPSLS
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
 
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t\t ");
 
-            Console.Write("              ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -428,9 +426,8 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t\t ");
 
-            Console.Write("              ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -438,15 +435,13 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t\t  ");
 
-            Console.Write("                ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t\t ");
 
-            Console.Write("               ");
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -454,9 +449,8 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t        ");
 
-            Console.Write("              ");
             Console.BackgroundColor = ConsoleColor.Red;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -464,9 +458,8 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.Red;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t       ");
 
-            Console.Write("             ");
             Console.BackgroundColor = ConsoleColor.Red;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -478,9 +471,8 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.Red;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t       ");
 
-            Console.Write("             ");
             Console.BackgroundColor = ConsoleColor.Red;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -492,9 +484,8 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.Red;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t        ");
 
-            Console.Write("             ");
             Console.BackgroundColor = ConsoleColor.Red;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -518,11 +509,11 @@ namespace RPSLS
         public static void LizardGraphic()
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\n\n\t\t\t\t\t   ");
+            Console.Write("\n\n\n\t\t\t\t\t\t   ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t\t  ");
+            Console.Write("\n\t\t\t\t\t\t  ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkYellow;
@@ -535,17 +526,17 @@ namespace RPSLS
             Console.Write("  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             
-            Console.Write("\n\t\t\t\t\t   ");
+            Console.Write("\n\t\t\t\t\t\t   ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write(" xxxx ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             
-            Console.Write("\n\t\t\t\t\t    ");
+            Console.Write("\n\t\t\t\t\t\t    ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write("    ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             
-            Console.Write("\n\t\t\t\t        ");
+            Console.Write("\n\t\t\t\t\t        ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkYellow;
@@ -554,7 +545,7 @@ namespace RPSLS
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             
-            Console.Write("\n\t\t\t\t        ");
+            Console.Write("\n\t\t\t\t\t        ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkYellow;
@@ -563,7 +554,7 @@ namespace RPSLS
             Console.Write("   ");
             
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t        ");
+            Console.Write("\n\t\t\t\t\t        ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkYellow;
@@ -586,11 +577,11 @@ namespace RPSLS
         public static void SpockGraphic()
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\n\n\t\t\t\t\t   ");           
+            Console.Write("\n\n\n\t\t\t\t\t\t   ");           
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t\t   ");            
+            Console.Write("\n\t\t\t\t\t\t   ");            
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Write(" ");
             Console.ForegroundColor = ConsoleColor.Black;
@@ -600,24 +591,24 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Write(" ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t\t   ");           
+            Console.Write("\n\t\t\t\t\t\t   ");           
             Console.ForegroundColor = ConsoleColor.Black;
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("   >  ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t\t    ");          
+            Console.Write("\n\t\t\t\t\t\t    ");          
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("  - ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t\t   ");           
+            Console.Write("\n\t\t\t\t\t\t   ");           
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t\t   ");            
+            Console.Write("\n\t\t\t\t\t\t   ");            
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t\t   ");
+            Console.Write("\n\t\t\t\t\t\t   ");
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -626,12 +617,12 @@ namespace RPSLS
 
         public static void SpockTextGraphic()
         {
-            Console.WriteLine("\n\n\n\n\t\t\t\t      ______");
-            Console.WriteLine("\t\t\t\t     /   __/               __  ");
-            Console.WriteLine("\t\t\t\t    /__   /_______________/ /_                    ");
-            Console.WriteLine("\t\t\t\t   /     /  _  / __ / ___/ /_/       ");
-            Console.WriteLine("\t\t\t\t  /_____/  ___/____/____/_/_/                        ");
-            Console.WriteLine("\t\t\t\t       /__/            ");
+            Console.WriteLine("\n\n\n\n\t\t\t\t\t     ______");
+            Console.WriteLine("\t\t\t\t\t    /   __/               __  ");
+            Console.WriteLine("\t\t\t\t\t   /__   /_______________/ /_                    ");
+            Console.WriteLine("\t\t\t\t\t  /     /  _  / __ / ___/ /_/       ");
+            Console.WriteLine("\t\t\t\t\t /_____/  ___/____/____/_/_/                        ");
+            Console.WriteLine("\t\t\t\t\t      /__/            ");
         }
 
         public static void GetBattleGraphic(int gestureNumber, int verbNumber)
@@ -698,8 +689,125 @@ namespace RPSLS
         {
             //Gesture gesture1 = new Gesture("Rock", "crushes", "crushes");
             RockGraphic();
-            Console.WriteLine("\n\n");
-            ScissorsGraphic();
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\n\t\t\t\t\t  ");
+
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("         ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t    ");
+
+            Console.Write("              ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("       ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+            Console.Write("\n\t\t\t     ");
+
+            Console.Write("              ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("     ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t     ");
+
+            Console.Write("              ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("     ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t    ");
+
+            Console.Write("                 ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("   ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t    ");
+
+            Console.Write("               ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("     ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t    ");
+
+            Console.Write("              ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write("   ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("     ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write("   ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t    ");
+
+            Console.Write("             ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("     ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t    ");
+
+            Console.Write("             ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("     ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t     ");
+
+            Console.Write("             ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write("   ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("     ");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.Write("   ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("  ");
+            Console.ForegroundColor = ConsoleColor.White;
 
         }
         public static void BattleGraphic2()
@@ -766,8 +874,32 @@ namespace RPSLS
         public static void BattleGraphic3()
         {
             //Gesture gesture2 = new Gesture("Paper", "covers", "disproves");
-            PaperGraphic();
-            RockGraphic();
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\n\n\n\n\n\n\n\t\t\t\t\t  ");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("               ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t  ");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("               ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t  ");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("               "); Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t  ");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("               ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t   ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("             ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t    ");
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Write("           ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
 
         }
         public static void BattleGraphic4()
@@ -775,53 +907,53 @@ namespace RPSLS
             //Gesture gesture2 = new Gesture("Paper", "covers", "disproves");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write(" Spock is   ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write(" illogical. ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t   ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
@@ -869,7 +1001,7 @@ namespace RPSLS
             ScissorsGraphic();
             Console.WriteLine();
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t     ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
@@ -879,7 +1011,7 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t     ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
@@ -889,7 +1021,7 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t     ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
@@ -899,7 +1031,7 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t     ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
@@ -909,7 +1041,7 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t     ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
@@ -919,7 +1051,7 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t     ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
@@ -929,7 +1061,7 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t     ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
@@ -939,7 +1071,7 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t     ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
@@ -949,7 +1081,7 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t\t     ");
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("      ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -1027,7 +1159,65 @@ namespace RPSLS
         public static void BattleGraphic7()
         {
             //Gesture gesture4 = new Gesture("Lizard", "poisons", "eats");
-            LizardGraphic();
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\n\n\t\t\t\t\t\t   ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.Write("      ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t\t  ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.Write("  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+            Console.Write("\n\t\t\t\t\t\t   ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.Write(" xxxx ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+            Console.Write("\n\t\t\t\t\t\t    ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.Write("    ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+            Console.Write("\n\t\t\t\t\t        ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.Write("   ");
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.Write("ooooo");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.Write(" _ ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+            Console.Write("\n\t\t\t\t\t        ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.Write("   ");
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.Write("ooooo");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.Write("|~|");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t        ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.Write("   ");
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.Write("ooooo");
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.Write("|_|");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
             //Dead Spock Graphic
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Write("\n\n\n\t\t\t\t\t   ");
@@ -1051,7 +1241,7 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Write("\n\t\t\t\t\t    ");
             Console.BackgroundColor = ConsoleColor.White;
-            Console.Write("  - ");
+            Console.Write("  0 ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Write("\n\t\t\t\t\t   ");
             Console.BackgroundColor = ConsoleColor.Blue;
@@ -1069,6 +1259,8 @@ namespace RPSLS
         public static void BattleGraphic8()
         {
             //Gesture gesture4 = new Gesture("Lizard", "poisons", "eats");
+            
+
 
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Write("\n\n\n\t\t\t\t\t   ");
@@ -1127,52 +1319,52 @@ namespace RPSLS
 
             Console.WriteLine();
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t          ");
+            Console.Write("\n\t\t\t\t           ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("       ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t        ");
+            Console.Write("\n\t\t\t\t         ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("         ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t       ");
+            Console.Write("\n\t\t\t\t        ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("          ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t      ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t      ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t      ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t      ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t      ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t      ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t     ");
+            Console.Write("\n\t\t\t\t      ");
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.Write("            ");
@@ -1181,9 +1373,51 @@ namespace RPSLS
         public static void BattleGraphic9()
         {
             //Gesture gesture5 = new Gesture("Spock", "smashes", "vaporizes");
-            SpockGraphic();
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t\t  ");
+            Console.Write("\n\n\n\t\t\t\t\t   ");
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.Write("      ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t   ");
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.Write(" ");
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("^..^");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t   ");
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("   >  ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t    ");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("  - ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t   ");
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.Write("     ");
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("O");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t   ");
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.Write("     ");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\t\t\t\t\t   ");
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.Write("      ");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Write("\n\n\t\t\t\t\t  ");
 
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.Write(" ");
