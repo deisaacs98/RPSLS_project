@@ -101,22 +101,7 @@ namespace RPSLS
             string gesture2Name = player1.gestures[losingGesture2].Name;
             string gesture3Name = player1.gestures[winningGesture1].Name;
             string gesture4Name = player1.gestures[winningGesture2].Name;
-            if(player2Gesture==0)
-            {
-                player2.wins++;
-                if(player1Gesture==2)
-                {
-                    Menu.DisplayGameWinner("Rock", "Scissors", "crushes");
-                    Graphics.BattleGraphic1();
-                }
-                else if(player1Gesture==3)
-                {
-                    Menu.DisplayGameWinner("Rock", "Lizard", "crushes");
-                    Graphics.BattleGraphic2();
-                }
-            }
-
-            else if (player2Gesture == losingGesture1)
+            if (player2Gesture == losingGesture1)
             {
                 player1.wins++;
                 Menu.DisplayGameWinner(gestureName, gesture1Name, player1.gestures[player1Gesture].Verb1);
