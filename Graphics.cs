@@ -633,58 +633,64 @@ namespace RPSLS
                     if(verbNumber == 0)
                     {
                         BattleGraphic1();
+                        break;
                     }
                     else
                     {
                         BattleGraphic2();
+                        break;
                     }
-                    break;
+                    
                 case 1:
                     if (verbNumber == 0)
                     {
                         BattleGraphic3();
+                        break;
                     }
                     else
                     {
                         BattleGraphic4();
+                        break;
                     }
-                    break;
                 case 2:
                     if (verbNumber == 0)
                     {
                         BattleGraphic5();
+                        break;
                     }
                     else
                     {
                         BattleGraphic6();
+                        break;
                     }
-                    break;
                 case 3:
                     if (verbNumber == 0)
                     {
                         BattleGraphic7();
+                        break;
                     }
                     else
                     {
                         BattleGraphic8();
+                        break;
                     }
-                    break;
+                    
                 case 4:
                     if (verbNumber == 0)
                     {
                         BattleGraphic9();
+                        break;
                     }
                     else
                     {
                         BattleGraphic10();
+                        break;
                     }
-                    break;
                 default:
                     break;
             }
             
         }
-
         public static void BattleGraphic1()
         {
             //Gesture gesture1 = new Gesture("Rock", "crushes", "crushes");
@@ -843,7 +849,7 @@ namespace RPSLS
             Console.Write("    ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
 
-            Console.Write("\n\t\t\t\t       ");
+            Console.Write("\n\t\t\t\t        ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkYellow;
@@ -852,7 +858,7 @@ namespace RPSLS
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
 
-            Console.Write("\n\t\t\t\t       ");
+            Console.Write("\n\t\t\t\t        ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkYellow;
@@ -861,7 +867,7 @@ namespace RPSLS
             Console.Write("   ");
 
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\n\t\t\t\t       ");
+            Console.Write("\n\t\t\t\t        ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Write("   ");
             Console.BackgroundColor = ConsoleColor.DarkYellow;
@@ -871,6 +877,8 @@ namespace RPSLS
             Console.BackgroundColor = ConsoleColor.DarkBlue;
 
         }
+
+
         public static void BattleGraphic3()
         {
             //Gesture gesture2 = new Gesture("Paper", "covers", "disproves");

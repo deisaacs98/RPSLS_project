@@ -53,11 +53,14 @@ namespace RPSLS
         {
             bool checkInput = true;
             Menu.HowManyPlayers();
-            string userInput = Console.ReadLine();
             while (checkInput)
             {
+                Console.WriteLine("\n");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                string userInput = Console.ReadLine();
                 bool validInput = Int32.TryParse(userInput, out number);
-                while (validInput)
+
+                if (validInput)
                 {
                     if ((number != 1) && (number != 2))
                     {
@@ -71,6 +74,11 @@ namespace RPSLS
                         validInput = false;
                         break;
                     }                    
+                }
+                else
+                {
+                    Menu.InvalidInput();
+                    continue;
                 }
             }
             return number;
